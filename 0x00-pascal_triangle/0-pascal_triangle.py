@@ -1,4 +1,10 @@
 #!/usr/bin/python3
+"""
+Pascal's Triangle Module
+
+This module contains the function `pascal_triangle` that generates Pascal's Triangle up to a given number of rows.
+"""
+
 def pascal_triangle(n):
     """
     Generate Pascal's Triangle up to the nth row.
@@ -12,7 +18,7 @@ def pascal_triangle(n):
     if n <= 0:
         return []
 
-    triangle = [[1]]  
+    triangle = [[1]] 
 
     for i in range(1, n):
         
